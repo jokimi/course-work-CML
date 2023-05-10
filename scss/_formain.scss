@@ -1,0 +1,1154 @@
+.page-wrap {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: #ffd909;
+        transition: color 0.5s;
+    }
+}
+.page-content-wrap {
+    display: block;
+    .content-wrap {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+            display: block;
+            font-size: 15px;
+            font-family: "Montserrat", sans-serif;
+            line-height: 164.2857%;
+            .content-wrapper {
+                display: block;
+                font-size: 15px;
+                line-height: 164.2857%;
+                .wrap {
+                    margin-bottom: 0!important;
+                    margin-left: 0;
+                    margin-right: 0;
+                    position: relative;
+                    display: block;
+                    padding-left: 0;
+                    padding-right: 0;
+                    width: 100%;
+                    height: fit-content;
+                    .column-container {
+                        position: relative;
+                        min-height: 1px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        box-sizing: border-box;
+                        display: block;
+                        margin: 0 auto;
+                        width: 80%;
+                        .column-inner {
+                            box-sizing: border-box;
+                            width: 100%;
+                            display: block;
+                            .wrapper {
+                                display: block;
+                                .empty-space {
+                                    display: block;
+                                    height: 100px;
+                                }
+                                .form-title {
+                                    position: relative;
+                                    display: block;
+                                    h2 {
+                                        color: #2b2b2b;
+                                        line-height: 1em;
+                                        margin: 0;
+                                        text-align: left;
+                                        font-family: 'Bitter';
+                                        font-size: 3em;
+                                        margin-bottom: 1em;
+                                    }
+                                }
+                                .form-subtitle {
+                                    position: relative;
+                                    display: block;
+                                    h6 {
+                                        font-family: 'Architun';
+                                        color: #9d9c9b;
+                                        font-weight: 400;
+                                        line-height: 1em;
+                                        font-size: 1.3em;
+                                        margin: 0;
+                                    }
+                                }
+                                .info {
+                                    margin-bottom: 0!important;
+                                    display: block;
+                                    aside {
+                                        display: block;
+                                        .contacts {
+                                            display: block;
+                                            .contacts-wrap {
+                                                color: #9d9c9b;
+                                                display: block;
+                                                .contacts-address {
+                                                    margin-bottom: 0.6em;
+                                                    padding: 0.7em 0 0.7em 4.2em;
+                                                    position: relative;
+                                                    display: block;
+                                                    &::before {
+                                                        background-color: #f4f3f0;
+                                                        color: #ff8a48;
+                                                        content: '\e801';
+                                                        font-family: fontello;
+                                                        width: 47px;
+                                                        height: 47px;
+                                                        line-height: 47px;
+                                                        text-align: center;
+                                                        border-radius: 50%;
+                                                        top: 50%;
+                                                        transform: translateY(-50%);
+                                                        display: block;
+                                                        font-size: 1.2em;
+                                                        position: absolute;
+                                                        z-index: 1;
+                                                        left: 0;
+                                                    }
+                                                    p {
+                                                        font-size: 15px;
+                                                        height: fit-content;
+                                                        display: block;
+                                                        margin: 0;
+                                                    }
+                                                }
+                                                .contacts-email {
+                                                    margin-bottom: 0.6em;
+                                                    padding: 0.7em 0 0.7em 4.2em;
+                                                    position: relative;
+                                                    display: block;
+                                                    &::before {
+                                                        background-color: #f4f3f0;
+                                                        color: #ff8a48;
+                                                        content: '\e802';
+                                                        font-family: fontello;
+                                                        width: 47px;
+                                                        height: 47px;
+                                                        line-height: 47px;
+                                                        text-align: center;
+                                                        border-radius: 50%;
+                                                        top: 50%;
+                                                        transform: translateY(-50%);
+                                                        display: block;
+                                                        font-size: 1.2em;
+                                                        position: absolute;
+                                                        z-index: 1;
+                                                        left: 0;
+                                                    }
+                                                    p {
+                                                        font-size: 15px;
+                                                        height: fit-content;
+                                                        display: block;
+                                                        margin: 0;
+                                                    }
+                                                }
+                                                .contacts-phone {
+                                                    margin-bottom: 0.6em;
+                                                    padding: 0.7em 0 0.7em 4.2em;
+                                                    position: relative;
+                                                    display: block;
+                                                    &::before {
+                                                        background-color: #f4f3f0;
+                                                        color: #ff8a48;
+                                                        content: '\e807';
+                                                        font-family: fontello;
+                                                        width: 47px;
+                                                        height: 47px;
+                                                        line-height: 47px;
+                                                        text-align: center;
+                                                        border-radius: 50%;
+                                                        top: 50%;
+                                                        transform: translateY(-50%);
+                                                        display: block;
+                                                        font-size: 1.2em;
+                                                        position: absolute;
+                                                        z-index: 1;
+                                                        left: 0;
+                                                    }
+                                                    p {
+                                                        font-size: 15px;
+                                                        height: fit-content;
+                                                        display: block;
+                                                        margin: 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .write-us {
+                                    display: block;
+                                    position: relative;
+                                    form {
+                                        margin-bottom: 0;
+                                        display: block;
+                                        margin-top: 0em;
+                                        .contact-us {
+                                            display: block;
+                                            .flex {
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                gap: 5%;
+                                                .item {
+                                                    width: 45%;
+                                                    padding-bottom: 2em;
+                                                    margin-right: 0;
+                                                    margin-left: 0;
+                                                    display: block;
+                                                    input {
+                                                        color: #9d9c9b;
+                                                        border-color: #dddddc;
+                                                        background-color: #ffffff;
+                                                        width: 100%;
+                                                        height: 70px;
+                                                        font-size: 0.9em;
+                                                        line-height: 1.5em;
+                                                        padding: 1.28em 1.8em;
+                                                        border: 1px solid #ddd;
+                                                        margin: 0;
+                                                        font-family: 'MontserratMedium';
+                                                        display: block;
+                                                        border-radius: 35px;
+                                                        box-sizing: border-box;
+                                                        &:focus {
+                                                            outline: none;
+                                                        }
+                                                        &:invalid:not(:focus):not(:placeholder-shown) {
+                                                            background: pink;
+                                                            & + label {
+                                                              opacity: 0;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .text-area {
+                                                display: block;
+                                                width: 95%;
+                                                textarea {
+                                                    height: 145px;
+                                                    width: 100%;
+                                                    color: #9d9c9b;
+                                                    border-color: #dddddc;
+                                                    background-color: #ffffff;
+                                                    border-radius: 35px;
+                                                    box-sizing: border-box;
+                                                    font-size: 0.9em;
+                                                    line-height: 1.5em;
+                                                    padding: 1.28em 1.8em;
+                                                    margin: 0;
+                                                    font-family: 'MontserratMedium';
+                                                    display: block;
+                                                    resize: none;
+                                                    &:focus {
+                                                        outline: none;
+                                                    }
+                                                    &::-webkit-scrollbar {
+                                                        width: 12px;
+                                                    }
+                                                    &::-webkit-scrollbar-track {
+                                                        background-color: #2b2b2b;
+                                                    }
+                                                    &::-webkit-scrollbar-thumb {
+                                                        background-color: #ff8a48;
+                                                        background-image: linear-gradient(45deg,rgba(255, 255, 255, .25) 25%,
+                                                                          transparent 25%,
+                                                                          transparent 50%,
+                                                                          rgba(255, 255, 255, .25) 50%,
+                                                                          rgba(255, 255, 255, .25) 75%,
+                                                                          transparent 75%,
+                                                                          transparent);
+                                                        border: 2px solid #2b2b2b;
+                                                        border-radius: 20px;
+                                                    }
+                                                }
+                                            }
+                                            .submit {
+                                                text-align: right;
+                                                display: block;
+                                                margin-right: 5%;
+                                                p {
+                                                    margin-top: 0em;
+                                                    display: block;
+                                                    margin-bottom: 0;
+                                                    height: fit-content;
+                                                    input {
+                                                        margin-top: 1.875em;
+                                                        width: auto;
+                                                        color: #ffffff;
+                                                        background-color: #ffd909;
+                                                        font-family: 'MontserratMedium';
+                                                        font-size: 16px;
+                                                        line-height: 22px;
+                                                        cursor: pointer;
+                                                        display: inline-block;
+                                                        box-sizing: border-box;
+                                                        padding: 1.39em 3.2em;
+                                                        height: auto;
+                                                        border-width: 0 !important;
+                                                        border-radius: 35px;
+                                                        vertical-align: baseline;
+                                                        &:hover {
+                                                            background-color: #ff8a48;
+                                                            transition: 0.5s;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .events {
+                                    position: relative;
+                                    display: block;
+                                    h6 {
+                                        font-family: 'Architun';
+                                        color: #2b2b2b;
+                                        line-height: 1em;
+                                        font-weight: 400;
+                                        font-size: 1.875em;
+                                        margin: 0;
+                                        text-align: center;
+                                    }
+                                    h2 {
+                                        color: #ff5f6a;
+                                        font-size: 3.438em;
+                                        font-family: 'Bitter';
+                                        line-height: 1.09em;
+                                        margin: 0.8em 0;
+                                        text-align: center;
+                                    }
+                                    .events-container {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        gap: 4%;
+                                        .event {
+                                            padding-bottom: 30px;
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            position: relative;
+                                            min-height: 1px;
+                                            padding-left: 0;
+                                            padding-right: 0;
+                                            box-sizing: border-box;
+                                            width: 22%;
+                                            .event-item {
+                                                background-color: #f4f3f0;
+                                                margin-bottom: 0;
+                                                text-align: center;
+                                                display: inline-block;
+                                                vertical-align: top;
+                                                width: 100%;
+                                                height: 100%;
+                                                box-sizing: border-box;
+                                                border-radius: 40px;
+                                                .event-thumb {
+                                                    box-sizing: border-box;
+                                                    position: relative;
+                                                    margin-bottom: 0;
+                                                    display: block;
+                                                    text-align: center;
+                                                    .event-image {
+                                                        box-sizing: border-box;
+                                                        max-width: 100%;
+                                                        height: fit-content;
+                                                        vertical-align: top;
+                                                        overflow: clip;
+                                                        text-align: center;
+                                                        border-radius: 40px 40px 0 0;
+                                                    }
+                                                }
+                                                .event-item-info {
+                                                    padding: 2em 0;
+                                                    display: block;
+                                                    text-align: center;
+                                                    .event-item-header {
+                                                        display: block;
+                                                        .event-item-title {
+                                                            font-family: 'MontserratBold';
+                                                            font-size: 1.375em;
+                                                            margin: 0;
+                                                            line-height: 1.14em;
+                                                            display: block;
+                                                            a {
+                                                                color: #2b2b2b;
+                                                                text-decoration: none;
+                                                                &:hover {
+                                                                    color: #ff8a48;
+                                                                    transition: color 0.5s ease;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .events-button {
+                                        margin: 1.5em auto 0 auto;
+                                        text-align: center;
+                                        display: block;
+                                        width: 200px;
+                                        height: fit-content;
+                                        background-color: #ffd909;
+                                        border-radius: 35px;
+                                        box-sizing: border-box;
+                                        &:hover {
+                                            transition: 0.5s;
+                                            background-color: #ff8a48;
+                                            cursor: pointer;
+                                        }
+                                        a {
+                                            color: #ffffff;
+                                            font-family: 'MontserratMedium';
+                                            font-size: 16px;
+                                            line-height: 70px;
+                                            background: transparent;
+                                        }
+                                    }
+                                }
+                                .plans {
+                                    position: relative;
+                                    display: block;
+                                    .plans-subtitle {
+                                        color: #ffffff;
+                                        font-family: 'Architun';
+                                        font-weight: 400;
+                                        font-size: 1.875em;
+                                        line-height: 1.9em;
+                                        text-align: center;
+                                        margin: 0;
+                                        width: 100%;
+                                    }
+                                    .plans-title {
+                                        color: #ffd909;
+                                        font-size: 3.438em;
+                                        margin-top: 2.4rem;
+                                        line-height: 1.09em;
+                                        text-align: center;
+                                        font-family: 'Bitter';
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                    .plans-container {
+                                        margin-top: 2.6em;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        gap: 5%;
+                                        width: 100%;
+                                        .plan {
+                                            padding-bottom: 30px;
+                                            display: block;
+                                            position: relative;
+                                            box-sizing: border-box;
+                                            width: 30%;
+                                            .plan-item {
+                                                margin-bottom: 0;
+                                                position: relative;
+                                                text-align: center;
+                                                padding-top: 0.0001px;
+                                                display: block;
+                                                width: 100%;
+                                                height: 100%;
+                                                box-sizing: border-box;
+                                                .plan-item-number {
+                                                    color: #ffd909;
+                                                    font-family: 'Architun';
+                                                    font-size: 2.188em;
+                                                    line-height: 1.27;
+                                                    display: inline-block;
+                                                    position: relative;
+                                                    width: 3em;
+                                                    text-align: center;
+                                                    margin: 0;
+                                                    padding-top: 0.7em;
+                                                    &::before {
+                                                        content: '\e800';
+                                                        font-family: fontello, sans-serif;
+                                                        position: absolute;
+                                                        left: 51%;
+                                                        transform: translateX(-50%);
+                                                        top: 1.15rem;
+                                                        font-size: 58px;
+                                                        font-weight: 400;
+                                                        line-height: 1;
+                                                        color: #fff !important;
+                                                    }
+                                                }
+                                                .plan-item-info {
+                                                    padding: 2em;
+                                                    text-align: center;
+                                                    display: block;
+                                                    .plan-item-header {
+                                                        display: block;
+                                                        text-align: center;
+                                                        .plan-item-title {
+                                                            line-height: 1.27;
+                                                            font-size: 1.3em;
+                                                            margin: 0;
+                                                            color: #ffffff !important;
+                                                            font-family: 'MontserratBold' !important;
+                                                            display: block;
+                                                        }
+                                                    }
+                                                    .plan-item-button {
+                                                        color: #ff8a48;
+                                                        background-color: #ffffff;
+                                                        margin-top: 3.8em;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                        width: 46px;
+                                                        height: 46px;
+                                                        line-height: 46px;
+                                                        text-align: center;
+                                                        -webkit-border-radius: 50%;
+                                                        -moz-border-radius: 50%;
+                                                        border-radius: 50%;
+                                                        font-size: 10px;
+                                                        padding: 0;
+                                                        display: block;
+                                                        &:hover {
+                                                            color: #fff;
+                                                            background-color: #ffd909;
+                                                            transition: 0.5s;
+                                                        }
+                                                        .plan-button {
+                                                            margin-right: 0;
+                                                            font-size: 20px;
+                                                            line-height: 46px;
+                                                            font-weight: 400;
+                                                            font-style: normal;
+                                                            display: block;
+                                                            white-space: normal;
+                                                            color: #ff8a48;
+                                                            text-align: center;
+                                                            &:hover {
+                                                                color: #fff;
+                                                                font-size: 25px;
+                                                                transition: 0.5s;
+                                                            }
+                                                            .icon-arrow {
+                                                                &::before {
+                                                                    font-size: inherit;
+                                                                    line-height: inherit;
+                                                                    font-weight: inherit;
+                                                                    font-style: inherit;
+                                                                    display: inline-block;
+                                                                    vertical-align: top;
+                                                                    width: auto;
+                                                                    margin: 0;
+                                                                    content: '\25C8';
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .packages {
+                                    position: relative;
+                                    display: block;
+                                    .packages-subtitle {
+                                        color: #2b2b2b;
+                                        font-family: 'Architun';
+                                        font-weight: 400;
+                                        font-size: 1.875em;
+                                        line-height: 1em;
+                                        margin: 0;
+                                        text-align: center;
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                    .packages-title {
+                                        color: #ff5f6a;
+                                        font-size: 3.438em;
+                                        line-height: 1.09em;
+                                        margin-top: 0.4em;
+                                        text-align: center;
+                                        font-family: 'Bitter';
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                    .packages-container {
+                                        margin-top: 2em;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        gap: 4%;
+                                        .package {
+                                            padding-bottom: 30px;
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            position: relative;
+                                            min-height: 1px;
+                                            padding-left: 0;
+                                            padding-right: 0;
+                                            box-sizing: border-box;
+                                            width: 22%;
+                                            .package-item {
+                                                margin-bottom: 0;
+                                                text-align: center;
+                                                display: inline-block;
+                                                vertical-align: top;
+                                                width: 100%;
+                                                height: 100%;
+                                                box-sizing: border-box;
+                                                border-radius: 40px;
+                                                background-color: transparent!important;
+                                                position: relative;
+                                                .price-info {
+                                                    padding: 0;
+                                                    display: block;
+                                                    color: #2b2b2b;
+                                                    text-align: center;
+                                                    .price-top {
+                                                        background-color: #ffffff;
+                                                        padding: 2.3em 1.5em;
+                                                        box-shadow: 0 0.688em 2.375em rgb(165 159 139 / 16%);
+                                                        display: block;
+                                                        border-radius: 40px 40px 0 0;
+                                                        .price-title {
+                                                            color: #2b2b2b;
+                                                            font-family: 'MontserratBold';
+                                                            font-size: 1.5em;
+                                                            line-height: 1.14;
+                                                            display: block;
+                                                        }
+                                                        .price {
+                                                            color: #9d9c9b;
+                                                            font-family: 'MontserratMedium';
+                                                            font-size: 1em;
+                                                            line-height: 1.56;
+                                                            display: block;
+                                                            .price-from {
+                                                                vertical-align: top;
+                                                                display: inline-block;
+                                                                line-height: 3.25;
+                                                                margin-right: 8px;
+                                                            }
+                                                            .price-value {
+                                                                color: #ff8a48;
+                                                                font-family: 'Architun';
+                                                                font-size: 2.5em;
+                                                                font-weight: 700;
+                                                                line-height: 1.5;
+                                                            }
+                                                        }
+                                                    }
+                                                    .price-bottom {
+                                                        background-color: #f7f5f3;
+                                                        padding: 1.8em 1.8em 2.6em;
+                                                        display: block;
+                                                        box-shadow: 0 0.688em 2.375em rgb(165 159 139 / 16%);
+                                                        border-radius: 0 0 40px 40px;
+                                                        .price-details {
+                                                            color: #9d9c9b;
+                                                            font-size: 1em;
+                                                            line-height: 1.6em;
+                                                            margin: 0.7em 0;
+                                                            display: block;
+                                                            text-align: center;
+                                                            ul {
+                                                                padding-left: 0;
+                                                                list-style: none;
+                                                                margin-bottom: 0;
+                                                                box-sizing: border-box;
+                                                                display: block;
+                                                                li {
+                                                                    padding: 3px 0;
+                                                                }
+                                                            }
+                                                        }
+                                                        .package-item-button {
+                                                            color: #fff !important;
+                                                            background-color: #ffd909;
+                                                            margin-top: 3.8em;
+                                                            margin-left: auto;
+                                                            margin-right: auto;
+                                                            width: 46px;
+                                                            height: 46px;
+                                                            line-height: 46px;
+                                                            text-align: center;
+                                                            -webkit-border-radius: 50%;
+                                                            -moz-border-radius: 50%;
+                                                            border-radius: 50%;
+                                                            font-size: 10px;
+                                                            padding: 0;
+                                                            display: block;
+                                                            &:hover {
+                                                                color: #fff;
+                                                                background-color: #ff8a48;
+                                                                transition: 0.5s;
+                                                            }
+                                                            .package-button {
+                                                                margin-right: 0;
+                                                                font-size: 20px;
+                                                                line-height: 46px;
+                                                                font-weight: 400;
+                                                                font-style: normal;
+                                                                display: block;
+                                                                white-space: normal;
+                                                                color: #fff;
+                                                                text-align: center;
+                                                                &:hover {
+                                                                    font-size: 25px;
+                                                                    transition: 0.5s;
+                                                                }
+                                                                .icon-arrow {
+                                                                    &::before {
+                                                                        font-size: inherit;
+                                                                        line-height: inherit;
+                                                                        font-weight: inherit;
+                                                                        font-style: inherit;
+                                                                        display: inline-block;
+                                                                        vertical-align: top;
+                                                                        width: auto;
+                                                                        margin: 0;
+                                                                        content: '\25C8';
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .team {
+                                    position: relative;
+                                    display: block;
+                                    .team-subtitle {
+                                        color: #2b2b2b;
+                                        font-family: 'Architun';
+                                        font-weight: 400;
+                                        font-size: 1.875em;
+                                        line-height: 1em;
+                                        margin: 0;
+                                        text-align: center;
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                    .team-title {
+                                        color: #ff5f6a;
+                                        font-size: 3.438em;
+                                        line-height: 1.09em;
+                                        margin-top: 0.4em;
+                                        text-align: center;
+                                        font-family: 'Bitter';
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                    .team-container {
+                                        margin-top: 2em;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        gap: 4%;
+                                        .member {
+                                            padding-bottom: 30px;
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            position: relative;
+                                            min-height: 1px;
+                                            padding-left: 0;
+                                            padding-right: 0;
+                                            box-sizing: border-box;
+                                            width: 22%;
+                                            .member-item {
+                                                color: #333333;
+                                                background-color: #f4f3f0;
+                                                position: relative;
+                                                margin-bottom: 0;
+                                                display: inline-block;
+                                                vertical-align: top;
+                                                width: 100%;
+                                                height: 100%;
+                                                box-sizing: border-box;
+                                                border-radius: 40px;
+                                                .member-thumb {
+                                                    box-sizing: border-box;
+                                                    position: relative;
+                                                    margin-bottom: 0;
+                                                    display: block;
+                                                    text-align: center;
+                                                    .member-image {
+                                                        box-sizing: border-box;
+                                                        max-width: 100%;
+                                                        height: fit-content;
+                                                        vertical-align: top;
+                                                        overflow: clip;
+                                                        text-align: center;
+                                                        border-radius: 40px 40px 0 0;
+                                                    }
+                                                }
+                                                .member-info {
+                                                    padding: 2em 0;
+                                                    display: block;
+                                                    text-align: center;
+                                                    .header {
+                                                        display: block;
+                                                        .title {
+                                                            font-family: 'MontserratBold';
+                                                            font-size: 1.375em;
+                                                            margin: 0;
+                                                            line-height: 1.14em;
+                                                            display: block;
+                                                            a {
+                                                                color: #2b2b2b;
+                                                                text-decoration: none;
+                                                                &:hover {
+                                                                    color: #ff8a48;
+                                                                    transition: color 0.5s ease;
+                                                                }
+                                                            }
+                                                        }
+                                                        .subtitle {
+                                                            color: #9d9c9b;
+                                                            font-size: 1em;
+                                                            line-height: 20px;
+                                                            margin-top: 6px;
+                                                            display: block;
+                                                            font-family: 'MontserratMedium';
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .team-button {
+                                        margin: 1.5em auto 0 auto;
+                                        text-align: center;
+                                        display: block;
+                                        width: 200px;
+                                        height: fit-content;
+                                        background-color: #ffd909;
+                                        border-radius: 35px;
+                                        box-sizing: border-box;
+                                        &:hover {
+                                            transition: 0.5s;
+                                            background-color: #ff8a48;
+                                            cursor: pointer;
+                                        }
+                                        a {
+                                            color: #fff;
+                                            font-family: 'MontserratMedium';
+                                            font-size: 16px;
+                                            line-height: 70px;
+                                            background: transparent;
+                                        }
+                                    }
+                                }
+                                .clients {
+                                    position: relative;
+                                    display: block;
+                                    .title {
+                                        color: #ff5f6a;
+                                        font-size: 3.438em;
+                                        line-height: 100%;
+                                        margin-top: 0.2em;
+                                        text-align: center;
+                                        font-family: 'Bitter';
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                    .grid {
+                                        display: grid;
+                                        grid-template-columns: repeat(5, 16%);
+                                        grid-template-rows: repeat(2, fit-content);
+                                        grid-gap: 5%;
+                                        .client {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background: rgb(244, 244, 244);
+                                            margin-bottom: 15%;
+                                            .img {
+                                                width: 100%;
+                                                height: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .empty {
+                            display: block;
+                            width: 100%;
+                            height: 177px;
+                        }
+                        .services {
+                            padding-left: 0;
+                            padding-right: 0;
+                            width: 50%;
+                            float: left;
+                            position: relative;
+                            box-sizing: border-box;
+                            display: block;
+                            .column-inner {
+                                box-sizing: border-box;
+                                width: 100%;
+                                display: block;
+                                .wrapper {
+                                    display: block;
+                                    .services-container {
+                                        position: relative;
+                                        display: block;
+                                        .services-wrap {
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            gap: 5%;
+                                            .service {
+                                                padding-bottom: 30px;
+                                                display: block;
+                                                position: relative;
+                                                box-sizing: border-box;
+                                                width: 30%;
+                                                .service-item {
+                                                    background-color: #f4f3f0;
+                                                    text-align: center;
+                                                    display: flex;
+                                                    flex-wrap: wrap;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    width: 100%;
+                                                    height: fit-content;
+                                                    box-sizing: border-box;
+                                                    .service-thumb {
+                                                        width: 100%;
+                                                        height: fit-content;
+                                                        text-align: center;
+                                                        display: block;
+                                                        padding: 0 auto;
+                                                        box-sizing: border-box;
+                                                        border: none;
+                                                        position: relative;
+                                                    }
+                                                    .service-item-info {
+                                                        width: 100%;
+                                                        padding: 15px 0;
+                                                        position: relative;
+                                                        z-index: 100;
+                                                        display: block;
+                                                        text-align: center;
+                                                        .service-item-header {
+                                                            display: block;
+                                                            height: fit-content;
+                                                            .service-item-title {
+                                                                margin: 0;
+                                                                font-size: 18px;
+                                                                font-weight: 600;
+                                                                line-height: 19px;
+                                                                font-family: 'MontserratBold';
+                                                                a {
+                                                                    color: #2b2b2b !important;
+                                                                    text-decoration: none;
+                                                                    &:hover {
+                                                                        color: #ff8a48 !important;
+                                                                        transition: color 0.5s;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .before-offers {
+                            display: none !important;
+                            padding-left: 0;
+                            padding-right: 0;
+                            float: left;
+                            position: relative;
+                            box-sizing: border-box;
+                        }
+                        .offers {
+                            padding-left: 0;
+                            padding-right: 0;
+                            margin-left: 16%;
+                            width: 34%;
+                            float: left;
+                            position: relative;
+                            box-sizing: border-box;
+                            display: block;
+                            .column-inner {
+                                padding-top: 0!important;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                                box-sizing: border-box;
+                                width: 100%;
+                                display: block;
+                                .wrapper {
+                                    display: block;
+                                    .offer-header {
+                                        display: block;
+                                        position: relative;
+                                        .offer-title {
+                                            color: #2b2b2b;
+                                            line-height: 1em;
+                                            margin: 1px 0 0 0;
+                                            text-align: left;
+                                            font-family: 'Bitter';
+                                            font-size: 4em;
+                                        }
+                                        .offer-text {
+                                            margin-top: 35px;
+                                            margin-bottom: 0;
+                                            text-align: left;
+                                            display: block;
+                                            p {
+                                                display: block;
+                                                text-align: left;
+                                                font-family: 'Architun';
+                                                font-weight: 400;
+                                                color: #9d9c9b;
+                                                font-size: 15px;
+                                            }
+                                        }
+                                    }
+                                    .offer-button {
+                                        margin-top: 35px;
+                                        background-color: #ff5f6a;
+                                        font-family: 'MontserratMedium';
+                                        font-size: 16px;
+                                        line-height: 70px;
+                                        text-decoration: none;
+                                        display: block;
+                                        box-sizing: border-box;
+                                        text-transform: none;
+                                        height: fit-content;
+                                        width: 175px;
+                                        border-width: 0!important;
+                                        border-radius: 35px;
+                                        text-align: center;
+                                        &:hover {
+                                            background-color: #ffd909;
+                                            transition: background-color 0.5s;
+                                            .offer-button-text {
+                                                color: #fff!important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .empty-space {
+                        display: block;
+                        height: 100px;
+                    }
+                    .gallery {
+                        width: 100%;
+                        padding: 10px 0;
+                        display: grid;
+                        grid-template-areas: "a1 a1 a2 a3"
+                                             "a4 a5 a6 a6";
+                        grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+                        grid-template-rows: fit-content fit-content;
+                        grid-gap: 0.66%;
+                        .gal {
+                            display: block;
+                            text-align: center;
+                            position: relative;
+                            padding-bottom: 4px;
+                            .img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .gal-1 {
+                            display: grid;
+                            place-items: center justify;
+                            grid-row-start: 1;
+                            grid-row-end: 2;
+                            grid-column-start: 1;
+                            grid-column-end: 3;
+                            padding-bottom: 4px;  
+                            position: relative;
+                            .img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .gal-2 {
+                            display: grid;
+                            place-items: center;
+                            grid-row-start: 2;
+                            grid-row-end: 3;
+                            grid-column-start: 3;
+                            grid-column-end: 5;
+                            padding-bottom: 5px;
+                            .cont {
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                width: 100% !important;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .gal-button {
+                                    text-align: center;
+                                    display: block;
+                                    width: 250px;
+                                    height: fit-content;
+                                    background-color: #fff;
+                                    border-radius: 35px;
+                                    box-sizing: border-box;
+                                    color: #2b2b2b !important;
+                                    font-family: 'MontserratMedium';
+                                    font-size: 16px;
+                                    line-height: 70px;
+                                    &:hover {
+                                        transition: all 0.5s;
+                                        background-color: #ffd909;
+                                        color: #fff !important;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .services-background {
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                    height: 762px;
+                }
+                .how-it-works-background {
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                    height: fit-content;
+                }
+                .packages-background {
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                    background-position: center !important;
+                    height: fit-content;
+                }
+                .team-background {
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                    background-position: center !important;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+}

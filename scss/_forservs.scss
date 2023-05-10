@@ -1,0 +1,478 @@
+.page-wrap {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: white !important;
+    &:hover {
+        color: #ffd909;
+        transition: color 0.5s;
+    }
+}
+.page-content-wrap {
+    display: block;
+    .content-wrap {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+            display: block;
+            font-size: 15px;
+            font-family: "Montserrat", sans-serif;
+            line-height: 164.2857%;
+            .content-wrapper {
+                display: block;
+                font-size: 15px;
+                line-height: 164.2857%;
+                .wrap {
+                    margin-bottom: 0!important;
+                    margin-left: 0;
+                    margin-right: 0;
+                    position: relative;
+                    display: block;
+                    padding-left: 0;
+                    padding-right: 0;
+                    width: 100%;
+                    height: fit-content;
+                    .column-container {
+                        position: relative;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        box-sizing: border-box;
+                        display: block;
+                        margin: 0 auto;
+                        width: 80%;
+                        .column-inner {
+                            box-sizing: border-box;
+                            width: 100%;
+                            display: block;
+                            .wrapper {
+                                display: block;
+                                .empty-space {
+                                    display: block !important;
+                                    height: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .navigation {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%;
+                    box-sizing: border-box;
+                    display: block;
+                    position: relative;
+                    .nav-container {
+                        display: block;
+                        width: 100%;
+                        .item {
+                            margin-right: 0!important;
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-top: 0.5em!important;
+                            margin-bottom: 0.5em!important;
+                            width: 100%;
+                            .content {
+                                position: relative;
+                                min-height: 0;
+                                padding: 3.7em 0;
+                                display: block;
+                                width: 100%;
+                                .nav {
+                                    display: block;
+                                    width: 100%;
+                                    .header {
+                                        display: block;
+                                        width: 100%;
+                                        .title {
+                                            color: #ffd909;
+                                            float: none;
+                                            margin: 0 auto;
+                                            display: block;
+                                            font-family: 'Bitter';
+                                            font-size: 5.625em;
+                                            line-height: 1em;
+                                            width: 100%;
+                                        }
+                                    }
+                                    .for-breadcrumbs {
+                                        margin-top: 0;
+                                        display: block;
+                                        color: #ffd909 !important;
+                                        width: 100%;
+                                        .breadcrumbs {
+                                            margin-top: 2.6em;
+                                            font-size: 15px;
+                                            font-weight: 600;
+                                            line-height: 1.5;
+                                            display: block;
+                                            width: 100%;
+                                            .home {
+                                                color: #ffffff !important;
+                                                &:hover {
+                                                    color: #ffd909 !important;
+                                                }
+                                            }
+                                            .delimiter {
+                                                display: inline-block;
+                                                position: relative;
+                                                margin: 0 0.65em;
+                                                vertical-align: top;
+                                                text-align: center;
+                                                &::before {
+                                                    text-align: center;
+                                                    font-family: fontello;
+                                                    content: '\e80a';
+                                                    color: #fff !important;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .packages {
+                    position: relative;
+                    display: block;
+                    .packages-subtitle {
+                        color: #2b2b2b;
+                        font-family: 'Architun';
+                        font-weight: 400;
+                        font-size: 1.875em;
+                        line-height: 1em;
+                        margin: 0;
+                        text-align: center;
+                        display: block;
+                        width: 100%;
+                    }
+                    .packages-title {
+                        color: #ff5f6a;
+                        font-size: 3.438em;
+                        line-height: 1.09em;
+                        margin-top: 0.4em;
+                        text-align: center;
+                        font-family: 'Bitter';
+                        display: block;
+                        width: 100%;
+                    }
+                    .packages-container {
+                        margin-top: 2em;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 4%;
+                        .package {
+                            padding-bottom: 30px;
+                            display: inline-block;
+                            vertical-align: top;
+                            position: relative;
+                            min-height: 1px;
+                            padding-left: 0;
+                            padding-right: 0;
+                            box-sizing: border-box;
+                            width: 22%;
+                            .package-item {
+                                margin-bottom: 0;
+                                text-align: center;
+                                display: inline-block;
+                                vertical-align: top;
+                                width: 100%;
+                                height: 100%;
+                                box-sizing: border-box;
+                                border-radius: 40px;
+                                background-color: transparent!important;
+                                position: relative;
+                                .price-info {
+                                    padding: 0;
+                                    display: block;
+                                    color: #2b2b2b;
+                                    text-align: center;
+                                    .price-top {
+                                        background-color: #ffffff;
+                                        padding: 2.3em 1.5em;
+                                        box-shadow: 0 0.688em 2.375em rgb(165 159 139 / 16%);
+                                        display: block;
+                                        border-radius: 40px 40px 0 0;
+                                        .price-title {
+                                            color: #2b2b2b;
+                                            font-family: 'MontserratBold';
+                                            font-size: 1.5em;
+                                            line-height: 1.14;
+                                            display: block;
+                                        }
+                                        .price {
+                                            color: #9d9c9b;
+                                            font-family: 'MontserratMedium';
+                                            font-size: 1em;
+                                            line-height: 1.56;
+                                            display: block;
+                                            .price-from {
+                                                vertical-align: top;
+                                                display: inline-block;
+                                                line-height: 3.25;
+                                                margin-right: 8px;
+                                            }
+                                            .price-value {
+                                                color: #ff8a48;
+                                                font-family: 'Architun';
+                                                font-size: 2.5em;
+                                                font-weight: 700;
+                                                line-height: 1.5;
+                                            }
+                                        }
+                                    }
+                                    .price-bottom {
+                                        background-color: #f7f5f3;
+                                        padding: 1.8em 1.8em 2.6em;
+                                        display: block;
+                                        box-shadow: 0 0.688em 2.375em rgb(165 159 139 / 16%);
+                                        border-radius: 0 0 40px 40px;
+                                        .price-details {
+                                            color: #9d9c9b;
+                                            font-size: 1em;
+                                            line-height: 1.6em;
+                                            margin: 0.7em 0;
+                                            display: block;
+                                            text-align: center;
+                                            ul {
+                                                padding-left: 0;
+                                                list-style: none;
+                                                margin-bottom: 0;
+                                                box-sizing: border-box;
+                                                display: block;
+                                                li {
+                                                    padding: 3px 0;
+                                                }
+                                            }
+                                        }
+                                        .package-item-button {
+                                            color: #fff !important;
+                                            background-color: #ffd909;
+                                            margin-top: 3.8em;
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            width: 46px;
+                                            height: 46px;
+                                            line-height: 46px;
+                                            text-align: center;
+                                            -webkit-border-radius: 50%;
+                                            -moz-border-radius: 50%;
+                                            border-radius: 50%;
+                                            font-size: 10px;
+                                            padding: 0;
+                                            display: block;
+                                            &:hover {
+                                                color: #fff;
+                                                background-color: #ff8a48;
+                                                transition: 0.5s;
+                                            }
+                                            .package-button {
+                                                margin-right: 0;
+                                                font-size: 20px;
+                                                line-height: 46px;
+                                                font-weight: 400;
+                                                font-style: normal;
+                                                display: block;
+                                                white-space: normal;
+                                                color: #fff;
+                                                text-align: center;
+                                                &:hover {
+                                                    font-size: 25px;
+                                                    transition: 0.5s;
+                                                }
+                                                .icon-arrow {
+                                                    &::before {
+                                                        font-size: inherit;
+                                                        line-height: inherit;
+                                                        font-weight: inherit;
+                                                        font-style: inherit;
+                                                        display: inline-block;
+                                                        vertical-align: top;
+                                                        width: auto;
+                                                        margin: 0;
+                                                        content: '\25C8';
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .all-serv {
+                    position: relative;
+                    display: block;
+                    .all-serv-subtitle {
+                        color: #2b2b2b;
+                        font-family: 'Architun';
+                        font-weight: 400;
+                        font-size: 1.875em;
+                        line-height: 1em;
+                        margin: 0;
+                        text-align: center;
+                        display: block;
+                        width: 100%;
+                    }
+                    .all-serv-title {
+                        color: #ff5f6a;
+                        font-size: 3.438em;
+                        line-height: 1.09em;
+                        margin-top: 0.4em;
+                        text-align: center;
+                        font-family: 'Bitter';
+                        display: block;
+                        width: 100%;
+                    }
+                    .all-serv-wrap {
+                        margin-top: 2em;
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        gap: 4%;
+                        .serv {
+                            padding-bottom: 30px;
+                            display: inline-block;
+                            vertical-align: top;
+                            position: relative;
+                            box-sizing: border-box;
+                            width: 48%;
+                            .serv-item {
+                                background-color: rgba(255,255,255,0);
+                                color: #9d9c9b;
+                                padding-left: 9.2em;
+                                padding-right: 1.85em;
+                                margin-bottom: 0;
+                                position: relative;
+                                text-align: center;
+                                display: inline-block;
+                                vertical-align: top;
+                                width: 100%;
+                                height: 100%;
+                                box-sizing: border-box;
+                                &::before {
+                                    content: '';
+                                    width: 1px;
+                                    height: auto;
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    bottom: 3.9em;
+                                    left: 3.55em;
+                                    background: repeating-linear-gradient(to top,#dddddc 0px,#dddddc 7px,#ffffff 7px,#ffffff 11px);
+                                }
+                                .serv-thumb {
+                                    box-sizing: border-box;
+                                    position: relative;
+                                    margin-bottom: 0;
+                                    display: block;
+                                    .serv-pic {
+                                        width: 100%;
+                                        box-sizing: border-box;
+                                        max-width: 100%;
+                                        height: auto;
+                                        vertical-align: top;
+                                        border-radius: 30% 0 30% 0;
+                                    }
+                                }
+                                .icon-serv {
+                                    position: absolute;
+                                    left: -2px;
+                                    top: 0;
+                                    background-color: #f4f3f0;
+                                    color: #ff8a48;
+                                    border: 0;
+                                    margin: 0;
+                                    font-size: 3.8em;
+                                    width: 1.925em;
+                                    height: 1.925em;
+                                    line-height: 1.925em;
+                                    display: inline-block;
+                                    text-align: center;
+                                    border-radius: 50%;
+                                }
+                                .serv-item-info {
+                                    padding: 3em 0 3.9em;
+                                    text-align: left;
+                                    display: block;
+                                    .serv-item-header {
+                                        display: block;
+                                        .serv-item-title {
+                                            font-family: 'MontserratBold';
+                                            font-size: 1.6em;
+                                            margin: 0;
+                                            color: #2b2b2b !important;
+                                            display: block;
+                                            a {
+                                                color: #2b2b2b !important;
+                                                display: block;
+                                                &:hover {
+                                                    color: #ff8a48 !important;
+                                                    transition: 0.5s;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .serv-item-content {
+                                        margin-top: 1.3em;
+                                        display: block;
+                                        p {
+                                            margin: 0;
+                                            display: block;
+                                            font-size: 1.1em;
+                                            font-family: 'Architun';
+                                            font-weight: 300;
+                                        }
+                                    }
+                                    .serv-item-button {
+                                        margin: 2.2em 0 0;
+                                        text-align: center;
+                                        display: block;
+                                        width: 200px;
+                                        height: fit-content;
+                                        background-color: #ffd909;
+                                        border-radius: 35px;
+                                        box-sizing: border-box;
+                                        &:hover {
+                                            transition: 0.5s;
+                                            background-color: #ff8a48;
+                                            cursor: pointer;
+                                        }
+                                        a {
+                                            color: #ffffff;
+                                            font-family: 'MontserratMedium';
+                                            font-size: 16px;
+                                            line-height: 70px !important;
+                                            height: 70px;
+                                            background: transparent;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .background {
+                    background-position: top left !important;
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                }
+                .packages-background {
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,278 @@
+footer {
+    color: #ffffff;
+    margin-top: 0;
+    display: block;
+    .wrap {
+        font-size: 14px;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        margin-bottom: 0!important;
+        padding: 2em 0;
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+        .column-container {
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+            display: block;
+            .column-inner {
+                padding-top: 0!important;
+                padding-left: 15px;
+                padding-right: 15px;
+                box-sizing: border-box;
+                width: 100%;
+                display: block;
+                .wrapper {
+                    display: block;
+                    .empty-space {
+                        display: block;
+                        height: 25px;
+                    }
+                    .footer {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 80%;
+                        box-sizing: border-box;
+                        position: relative;
+                        display: block;
+                        .content-container {
+                            display: block;
+                            .inner {
+                                margin-bottom: 0!important;
+                                position: relative;
+                                display: flex;
+                                flex-wrap: wrap;
+                                gap: 0;
+                                .in-container {
+                                    padding-left: 0;
+                                    padding-right: 0;
+                                    width: 25%;
+                                    position: relative;
+                                    display: block;
+                                    .in-column-inner {
+                                        box-sizing: border-box;
+                                        padding-left: 15px;
+                                        padding-right: 15px;
+                                        width: 100%;
+                                        display: block;
+                                        .in-wrapper {
+                                            display: block;
+                                            .in-item {
+                                                margin-top: 0.5em;
+                                                margin-bottom: 0.5em;
+                                                display: block;
+                                                .widget-area {
+                                                    margin-bottom: 0!important;
+                                                    display: block;
+                                                    .widget {
+                                                        margin-top: 0!important;
+                                                        margin-bottom: 0!important;
+                                                        display: block;
+                                                        .contacts-wrap {
+                                                            display: block;
+                                                            .contacts-logo {
+                                                                display: block;
+                                                                img {
+                                                                    width: 90%;
+                                                                    height: fit-content;
+                                                                }
+                                                            }
+                                                            .socials-wrap {
+                                                                margin-top: 1.2em;
+                                                                display: block;
+                                                                .network {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    gap: 0;
+                                                                    text-align: center;
+                                                                    text-decoration: none;
+                                                                    margin-bottom: 1em;
+                                                                    &:hover {
+                                                                        color: #ffd909 !important;
+                                                                    }
+                                                                    .icon {
+                                                                        width: 25%;
+                                                                        height: 40px;
+                                                                        text-align: center;
+                                                                        position: relative;
+                                                                        display: block;
+                                                                    }
+                                                                    .label {
+                                                                        width: 75%;
+                                                                        height: 40px;
+                                                                        line-height: 40px;
+                                                                        text-align: left;
+                                                                        position: relative;
+                                                                        display: block;
+                                                                        font-family: 'MontserratMedium';
+                                                                        font-size: 1em;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .widget-title {
+                                                        display: block;
+                                                        color: #ffffff;
+                                                        font-family: 'Bitter';
+                                                        text-align: left;
+                                                        margin-bottom: 1.4em;
+                                                        margin-top: 1em;
+                                                        font-size: 1.375em;
+                                                        line-height: 1.14;
+                                                    }
+                                                    .fmenu-container {
+                                                        display: block;
+                                                        text-align: center;
+                                                        .fmenu {
+                                                            font-size: 15px;
+                                                            margin: 0;
+                                                            padding-left: 0;
+                                                            list-style-type: none;
+                                                            box-sizing: border-box;
+                                                            display: block;
+                                                            .menu-item {
+                                                                position: relative;
+                                                                display: block;
+                                                                width: 100%;
+                                                                margin-bottom: 0.5em;
+                                                                a {
+                                                                    font-family: 'Montserratmedium';
+                                                                    &:hover {
+                                                                        color: #ffd909 !important;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    .text-widget {
+                                                        font-size: 15px;
+                                                        display: block;
+                                                        width: 100%;
+                                                        p {
+                                                            margin: 0;
+                                                            display: block;
+                                                            font-family: 'MontserratBold';
+                                                            width: 100%;
+                                                            a {
+                                                                color: #fff;
+                                                                &:hover {
+                                                                    color: #ffd909 !important;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                .contacts-item {
+                                                    margin-top: -1rem !important;
+                                                    margin-bottom: 0.6em !important;
+                                                    display: block;
+                                                    .phone {
+                                                        display: block;
+                                                        text-align: left;
+                                                        font-size: 2em;
+                                                        color: #ffd909;
+                                                        line-height: 1.27;
+                                                        font-family: 'Architun';
+                                                        font-weight: 400;
+                                                    }
+                                                }
+                                                .email-item {
+                                                    display: block;
+                                                    margin-top: 2em;
+                                                    font-family: 'MontserratMedium';
+                                                    a {
+                                                        .email {
+                                                            padding: 0.7em 0 0.7em 3.5em;
+                                                            position: relative;
+                                                            display: block;
+                                                            &::before {
+                                                                color: #ffd909;
+                                                                content: '\e802';
+                                                                font-family: fontello;
+                                                                width: 47px;
+                                                                height: 47px;
+                                                                line-height: 47px;
+                                                                text-align: center;
+                                                                border-radius: 50%;
+                                                                top: 50%;
+                                                                transform: translateY(-50%);
+                                                                display: block;
+                                                                font-size: 2em;
+                                                                position: absolute;
+                                                                z-index: 1;
+                                                                left: 0;
+                                                            }
+                                                        }
+                                                        &:hover {
+                                                            color: #ffd909 !important;
+                                                            .email::before {
+                                                                color: #fff;
+                                                                transition: 0.3s;
+                                                            }
+                                                        }
+                                                    }
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.scroll-to-top {
+    color: #ffffff;
+    border: none;
+    background-color: #ff8a48;
+    opacity: 1;
+    bottom: 2em;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    right: 2em;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    &:hover {
+        background-color: #ffd909;
+        transition: 0.5s;
+    }
+    &::before {
+        width: auto;
+        font-size: inherit;
+        line-height: inherit;
+        font-weight: inherit;
+        margin: 0!important;
+        content: '\e80b';
+        font-family: fontello;
+        display: inline-block;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+@media (max-width: 1249.5px) {
+    footer .wrap .column-container .column-inner .wrapper .footer .content-container .inner .in-container .in-column-inner .in-wrapper .in-item .contacts-item .phone {
+        font-size: 1.5em;
+    }
+    footer .wrap .column-container .column-inner .wrapper .footer .content-container .inner .in-container .in-column-inner .in-wrapper .in-item .widget-area .fmenu-container .fmenu {
+        font-size: 13.5px;
+    }
+}
+@media (max-width: 1199.5px) {
+    footer .wrap .column-container .column-inner .wrapper .footer .content-container .inner .in-container .in-column-inner .in-wrapper .in-item .widget-area .widget .contacts-wrap .socials-wrap .network .label {
+        margin-left: 2%;
+        width: 73%;
+        font-size: 0.8em;
+    }
+}
