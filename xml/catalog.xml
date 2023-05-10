@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog.css"?>
+<catalog>
+    <container>
+        <grid>
+            <head></head>
+            <article>
+                <main>
+                    <item>
+                        <photo>  
+                            <first/>
+                        </photo>
+                        <name>Бумажные трубочки для напитков</name>
+                        <info>от 5 BYN</info>
+                    </item>
+                    <item>
+                        <photo>  
+                            <second/>
+                        </photo>
+                        <name>Набор реквизита для фотосессии</name>
+                        <info>от 15 BYN</info>
+                    </item>
+                    <item>
+                        <photo>  
+                            <third/>
+                        </photo>
+                        <name>Воздушные шарики</name>
+                        <info>от 5 BYN</info>
+                    </item>
+                    <item>
+                        <photo>  
+                            <fourth/>
+                        </photo>
+                        <name>Колпаки</name>
+                        <info>от 10 BYN</info>
+                    </item>
+                    <item>
+                        <photo>  
+                            <fifth/>
+                        </photo>
+                        <name>Подвесные веера из винтажной коллекции</name>
+                        <info>от 12 BYN</info>
+                    </item>
+                    <item>
+                        <photo>  
+                            <sixth/>
+                        </photo>
+                        <name>Гирлянды для украшения интерьера</name>
+                        <info>от 20 BYN</info>
+                    </item>
+                    <item>
+                        <photo>  
+                            <seventh/>
+                        </photo>
+                        <name>Топперы для кексов</name>
+                        <info>от 10 BYN</info>
+                    </item>
+                    <item>
+                        <photo>  
+                            <eighth/>
+                        </photo>
+                        <name>Флажки</name>
+                        <info>от 15 BYN</info>
+                    </item>
+                </main>
+            </article>
+            <bottom></bottom>
+        </grid>
+    </container>
+</catalog>
